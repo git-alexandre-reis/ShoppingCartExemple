@@ -11,10 +11,9 @@
 }
 
 :root {
-    --theme-dark-1: #daceb8;
-    --theme-dark-2: #fff3dd;
+    --main-theme: #daceb8;
+    --second-theme: #f0f2f5;
 
-    --color-light: #f0f2f5;
     --color-white: #ffffff;
 
     --color-1: #fe7b67;

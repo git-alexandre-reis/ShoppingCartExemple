@@ -28,3 +28,16 @@
   background: var(--color-2);
   color: var(--color-white);
 }
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  .product-container{
+    gap: 2rem;
+    padding: 6rem 0 2rem;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .product-container{
+    padding: 6rem 0 2rem;
+  }
+}

@@ -23,13 +23,46 @@
   height: 8vh;
   cursor: pointer;
   font-size: 1.2rem;
-  border-left: 1px solid var(--theme-dark-1);
+  border-left: 1px solid var(--main-theme);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .buscador .button button:hover {
+  background: var(--color-1);
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  .buscador input,
+  .buscador .button button{
+    padding: .9rem;
+  }
   
-  background: #e16868;
+  .buscador input[type="search"] {
+    height: 3vh;
+    font-size: .7rem;
+  }
+  
+  .buscador .button button{
+    height: 3vh;
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .buscador input,
+  .buscador .button button{
+    padding: .9rem;
+  }
+  
+  .buscador input[type="search"] {
+    height: 3vh;
+    font-size: .7rem;
+  }
+  
+  .buscador .button button{
+    height: 3vh;
+    font-size: .8rem;
+  }
 }

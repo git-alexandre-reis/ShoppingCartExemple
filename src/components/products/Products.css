@@ -8,10 +8,9 @@
 }
 
 .card .imagem{
-  width: 20vw;
-  height: 50vh;
-  align-self: center;
-  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
   overflow: hidden;
 }
 
@@ -56,4 +55,18 @@
 
 .card button:hover{
   background-color: var(--color-1);
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  .card{
+    width: 18rem;
+    height: 28rem;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .card{
+    width: 18rem;
+    height: 28rem;
+  }
 }
