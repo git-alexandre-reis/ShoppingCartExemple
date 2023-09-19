@@ -1,0 +1,55 @@
+nav .container{
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  background-color: var(--color-2);
+  transition: var(--transition);
+}
+
+.logo{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--color-white);
+}
+
+.logo h4 span{
+  color: var(--color-3);
+}
+
+.cart{
+  position: relative;
+}
+
+.cart .count{
+  width: 1.7rem;
+  height: 1.7rem;
+  position: absolute;
+  bottom: 1rem;
+  left: .8rem;
+  font-size: .7rem;
+  color: var(--color-white);
+  background: var(--color-1);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: .2rem .5rem .2rem;
+  border-radius: 50%;
+}
+
+.cart .count.active{
+  display: flex;
+}
+
+.cart button{
+  cursor: pointer;
+  background: transparent;
+}
+
+.cart button svg{
+  font-size: 1.4rem;
+  fill: var(--color-white);
+}

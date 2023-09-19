@@ -1,0 +1,59 @@
+.card{
+  width: 20rem;
+  height: 30rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .imagem{
+  width: 20vw;
+  height: 50vh;
+  align-self: center;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.card .imagem img{
+  object-fit: fill;
+}
+
+.card .titulo{
+  text-align: center;
+  margin: 1rem 2rem 0;
+}
+
+.card .titulo h3{
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.card .preco{
+  text-align: center;
+  margin: .5rem 0 1rem;
+}
+
+.card .preco h2{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.card button{
+  width: 100%;
+  background-color: var(--color-2);
+  padding: 1rem;
+  text-align: center;
+  color: var(--color-white);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.card button:hover{
+  background-color: var(--color-1);
+}
