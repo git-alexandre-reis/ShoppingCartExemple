@@ -1,4 +1,8 @@
 .buscador{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 45vw;
   display: flex;
   background-color: var(--color-white);
@@ -51,6 +55,18 @@
 }
 
 @media screen and (max-width: 767px){
+  .buscador{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    display: flex;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
   .buscador input,
   .buscador .button button{
     padding: .9rem;
@@ -63,6 +79,7 @@
   
   .buscador .button button{
     height: 3vh;
-    font-size: .8rem;
+    font-size: .6rem;
+    padding: .9rem .4rem !important;
   }
 }
