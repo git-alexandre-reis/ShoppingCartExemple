@@ -155,6 +155,7 @@
   
   .item-carrinho .body-content .price-content .qtde{
     gap: .3rem;
+    color: #000;
   }
   
   .item-carrinho .body-content .price-content .qtde h3{
@@ -163,5 +164,6 @@
   
   .item-carrinho .excluir button{
     font-size: .8rem;
+    color: #000;
   }
 }

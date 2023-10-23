@@ -123,11 +123,12 @@
 
 @media screen and (min-width: 767px) and (max-width: 1023px){
   .carrinho-vazio{
-    max-width: 70%;
-    height: 40vh;
+    max-width: 90%;
+    height: 60vh;
     left: 0;
     right: 0;
     margin: 0 auto;
+    padding: .2rem;
   }
 
   .carrinho{
@@ -155,11 +156,12 @@
 
 @media screen and (max-width: 767px){
   .carrinho-vazio{
-    max-width: 70%;
-    height: 40vh;
+    max-width: 90%;
+    height: 60vh;
     left: 0;
     right: 0;
     margin: 0 auto;
+    padding: .2rem;
   }
 
   .carrinho{
